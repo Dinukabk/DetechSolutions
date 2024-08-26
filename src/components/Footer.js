@@ -19,7 +19,7 @@ const Footer = () => {
                                 <h5>DTechSolutions</h5>
                                 <p>221/4</p>
                                 <p>Obesekarapura</p>
-                                <p>Rajagiriya</p>
+                                <p>Colombo</p>
                             </div>
                         </div>
                     </div>
