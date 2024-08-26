@@ -8,7 +8,7 @@ import Notiflix from 'notiflix';
 
 const DemoProduct = (props) => {
 
-    useDocTitle('MLD | Molad e Konsult - Demo our products')
+    useDocTitle("DTechSolutions |  Web and Mobile Applications");
 
     const [firstName, setFirstName] = useState('')
     const [lastName, setLastName] = useState('')
@@ -248,33 +248,35 @@ const DemoProduct = (props) => {
                         </div>
                     </div>
                     </form>
-                    <div className="w-full  lg:-mt-96 lg:w-2/6 px-8 py-6 ml-auto bg-blue-900 rounded-2xl">
-                        <div className="flex flex-col text-white">     
-                            <div className="flex my-4 w-2/3 lg:w-3/4">
-                                <div className="flex flex-col">
-                                    <i className="fas fa-map-marker-alt pt-2 pr-2" />
-                                </div>
-                                <div className="flex flex-col">
-                                    <h2 className="text-2xl">Office Address</h2>
-                                    <p className="text-gray-400">Ilo Awela, Ota, Ogun State</p>
-                                </div>
-                            </div>
-                            
-                            <div className="flex my-4 w-2/3 lg:w-1/2">
-                                <div className="flex flex-col">
-                                <i className="fas fa-phone-alt pt-2 pr-2" />
-                                </div>
-
-                                <div className="flex flex-col">
-                                    <h2 className="text-2xl">Call Us</h2>
-                                    <p className="text-gray-400">Tel: 08055384406</p>
+                    <div
+                            className="w-full  lg:-mt-96 lg:w-2/6 px-8 py-6 ml-auto bg-blue-900 rounded-2xl">
+                            <div className="flex flex-col text-white">
                                 
-                                    <div className='mt-5'>
-                                        <h2 className="text-2xl">Send an E-mail</h2>
-                                        <p className="text-gray-400">info@mld.ng</p>
+                                <div className="flex my-4 w-2/3 lg:w-3/4">
+                                    <div className="flex flex-col">
+                                        <i className="fas fa-map-marker-alt pt-2 pr-2" />
                                     </div>
-                            
+                                    <div className="flex flex-col">
+                                        <h2 className="text-2xl">Office Address</h2>
+                                        <p className="text-gray-400">DTechSolutions,221/4,Obesekarapura,Rajagiriya</p>
+                                    </div>
                                 </div>
+                    
+                    <div className="flex my-4 w-2/3 lg:w-1/2">
+                        <div className="flex flex-col">
+                        <i className="fas fa-phone-alt pt-2 pr-2" />
+                        </div>
+
+                        <div className="flex flex-col">
+                        <h2 className="text-2xl">Call Us</h2>
+                        <p className="text-gray-400">Tel: 0761229114</p>
+                        
+                            <div className='mt-5'>
+                                <h2 className="text-2xl">Send an E-mail</h2>
+                                <p className="text-gray-400">info@DtechSolutions.com</p>
+                            </div>
+                       
+                        </div>
                             </div>
                             
                             <div className="flex my-4 w-2/3 lg:w-1/2">
